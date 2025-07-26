@@ -1,7 +1,7 @@
 import React from "react";
 import Coach from "../assets/portfolio/Coach.png";
-import ReactECommerce from "../assets/portfolio/React-E-Commerce.png";
-import DesiResturent from "../assets/portfolio/DesiResturent.png";
+import HBDigital from "../assets/portfolio/HB-Digital-07-26-2025_06_34_PM.png";
+import Dashboard from "../assets/portfolio/Dashboard.png";
 import Travlings from "../assets/portfolio/Travlings.png";
 import ENext from "../assets/portfolio/ENext.png";
 import Portfolios from "../assets/portfolio/Portfolio.png";
@@ -17,15 +17,15 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: ReactECommerce,
-      code: "https://github.com/likeam/React-E-Commerce",
-      demo: "https://ecommercear.netlify.app/",
+      src: HBDigital,
+      code: "https://github.com/likeam/HBDigitalAgency",
+      demo: "https://agency-ten-woad.vercel.app/",
     },
     {
       id: 3,
-      src: DesiResturent,
-      code: "https://github.com/likeam/desi-resturent",
-      demo: "https://desiresturent.netlify.app/",
+      src: Dashboard,
+      code: "https://github.com/likeam/dashboard",
+      demo: "https://dashboard-mocha-delta.vercel.app/",
     },
     {
       id: 4,

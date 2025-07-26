@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import CV from "../assets/resume/ARCV.pdf";
+import { CV } from "../assets/resume/Abdul.pdf";
 
 const SocialLinks = () => {
   const links = [
@@ -15,7 +15,6 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.linkedin.com/in/abdul-rehman-b27a13241/",
-      style: "rounded-tr-md",
     },
     {
       id: 2,
@@ -45,9 +44,9 @@ const SocialLinks = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: { CV },
-      //   style: "rounded-tr-md",
+      style: "rounded-tr-md",
       download: true,
+      href: { CV },
     },
   ];
 
